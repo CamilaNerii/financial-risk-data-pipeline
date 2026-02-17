@@ -17,13 +17,14 @@ This project simulates an end-to-end data pipeline for a fintech, focusing on cr
 - **Git/GitHub:** Version control and documentation.
 
 ## ⚙️ Data Pipeline Steps
-1. **Extraction:** Ingesting raw credit data from external sources (Kaggle).
-2. **Staging:** Loading data into a Staging Area to preserve the original source and allow auditing.
-3. **ETL & Modeling:** - Handling missing values (e.g., 'Saving accounts').
+- **Extraction:** Ingesting raw credit data from external sources (Kaggle).
+- **Staging:** Loading data into a Staging Area to preserve the original source and allow auditing.
+- **ETL & Modeling:** 
+    - Handling missing values (e.g., `saving_accounts`).
     - Standardizing column names to `snake_case`.
     - Structuring data into **Fact** and **Dimension** tables (Star Schema).
-4. **Loading:** Exporting the cleaned data into the final Data Warehouse.
-5. **Visualization:** Creating KPIs for risk exposure and credit distribution.
+- **Loading:** Exporting the cleaned data into the final Data Warehouse.
+- **Visualization:** Creating KPIs for risk exposure and credit distribution.
 
 ---
 
@@ -46,10 +47,11 @@ Este projeto simula um pipeline de dados ponta a ponta para uma fintech, com foc
 - **Git/GitHub:** Controle de versão e documentação.
 
 ### ⚙️ Etapas do Pipeline
-1. **Extração:** Ingestão de dados brutos de crédito de fontes externas (Kaggle).
-2. **Staging:** Carga dos dados em uma Staging Area para preservar a fonte original e permitir auditoria.
-3. **ETL & Modelagem:** - Tratamento de valores nulos (ex: contas de poupança).
+- **Extração:** Ingestão de dados brutos de crédito de fontes externas (Kaggle).
+- **Staging:** Carga dos dados em uma Staging Area para preservar a fonte original e permitir auditoria.
+- **ETL & Modelagem:** 
+    - Tratamento de valores nulos (ex: `saving_accounts`).
     - Padronização de colunas para o formato `snake_case`.
     - Estruturação dos dados em tabelas **Fato** e **Dimensão** (Star Schema).
-4. **Carga (Load):** Exportação dos dados limpos para o Data Warehouse final.
-5. **Visualização:** Criação de KPIs de exposição de risco e distribuição de crédito.
+- **Carga (Load):** Exportação dos dados limpos para o Data Warehouse final.
+- **Visualização:** Criação de KPIs de exposição de risco e distribuição de crédito.
