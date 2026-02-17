@@ -1,0 +1,7 @@
+# Ignorar arquivos de dados e bancos de dados locais
+data/
+*.db
+*.csv
+# Ignorar pastas de ambiente virtual
+venv/
+.venv/
